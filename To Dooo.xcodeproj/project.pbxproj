@@ -16,8 +16,8 @@
 		E768959D1F9120E500924DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E768959C1F9120E500924DE9 /* Assets.xcassets */; };
 		E76895A01F9120E500924DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E768959E1F9120E500924DE9 /* LaunchScreen.storyboard */; };
 		E78BFB041F9209D1002F5BDE /* ToDooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78BFB031F9209D1002F5BDE /* ToDooTests.swift */; };
-		E78BFB0B1F9209D9002F5BDE /* TodoModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F724A91F92068600E9BC5D /* TodoModelTest.swift */; };
-		E78BFB0C1F920B67002F5BDE /* TodoTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7476D0A1F91602D0033A476 /* TodoTabBarController.swift */; };
+		E78BFB0F1F921159002F5BDE /* Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E78BFB0D1F921159002F5BDE /* Todo.xcdatamodeld */; };
+		E78BFB101F921416002F5BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76895931F9120E500924DE9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		E78BFB011F9209D1002F5BDE /* ToDooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78BFB031F9209D1002F5BDE /* ToDooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDooTests.swift; sourceTree = "<group>"; };
 		E78BFB051F9209D1002F5BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7F724A91F92068600E9BC5D /* TodoModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModelTest.swift; sourceTree = "<group>"; };
+		E78BFB0E1F921159002F5BDE /* Todo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Todo.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				E76895931F9120E500924DE9 /* AppDelegate.swift */,
+				E78BFB0D1F921159002F5BDE /* Todo.xcdatamodeld */,
 				E76895951F9120E500924DE9 /* PendingController.swift */,
 				E76895971F9120E500924DE9 /* DoneController.swift */,
 				E76895991F9120E500924DE9 /* Main.storyboard */,
@@ -102,7 +103,6 @@
 		E78BFB021F9209D1002F5BDE /* ToDooTests */ = {
 			isa = PBXGroup;
 			children = (
-				E7F724A91F92068600E9BC5D /* TodoModelTest.swift */,
 				E78BFB031F9209D1002F5BDE /* ToDooTests.swift */,
 				E78BFB051F9209D1002F5BDE /* Info.plist */,
 			);
@@ -216,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E76895981F9120E500924DE9 /* DoneController.swift in Sources */,
+				E78BFB0F1F921159002F5BDE /* Todo.xcdatamodeld in Sources */,
 				E76895941F9120E500924DE9 /* AppDelegate.swift in Sources */,
 				E7476D0B1F91602D0033A476 /* TodoTabBarController.swift in Sources */,
 				E76895961F9120E500924DE9 /* PendingController.swift in Sources */,
@@ -227,9 +228,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78BFB0C1F920B67002F5BDE /* TodoTabBarController.swift in Sources */,
+				E78BFB101F921416002F5BDE /* AppDelegate.swift in Sources */,
 				E78BFB041F9209D1002F5BDE /* ToDooTests.swift in Sources */,
-				E78BFB0B1F9209D9002F5BDE /* TodoModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +475,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E78BFB0D1F921159002F5BDE /* Todo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E78BFB0E1F921159002F5BDE /* Todo.xcdatamodel */,
+			);
+			currentVersion = E78BFB0E1F921159002F5BDE /* Todo.xcdatamodel */;
+			path = Todo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E76895881F9120E500924DE9 /* Project object */;
 }
