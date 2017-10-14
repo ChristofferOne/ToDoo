@@ -1,15 +1,14 @@
 //
-//  To_DoooTests.swift
-//  To DoooTests
+//  ToDooTests.swift
+//  ToDooTests
 //
-//  Created by Christoffer Lundberg on 2017-10-13.
+//  Created by Christoffer Lundberg on 2017-10-14.
 //  Copyright © 2017 christofferlundberg. All rights reserved.
 //
 
 import XCTest
-@testable import To_Dooo
 
-class To_DoooTests: XCTestCase {
+class ToDooTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

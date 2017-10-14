@@ -9,8 +9,8 @@
 import UIKit
 
 class TodoModel {
-    var pendingItems:[String] = []
-    var doneItems:[String] = []
+    private var pendingItems:[String] = []
+    private var doneItems:[String] = []
     
     func addPending(text:String) {
         self.pendingItems.append(text)
